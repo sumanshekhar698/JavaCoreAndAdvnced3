@@ -5,7 +5,6 @@ public class SwapTwoNumbersWithoutTempVariable {
 	public static void main(String[] args) {
 
 		int x = Integer.MAX_VALUE;
-
 		int y = Integer.MAX_VALUE;
 
 //		int temp = y;

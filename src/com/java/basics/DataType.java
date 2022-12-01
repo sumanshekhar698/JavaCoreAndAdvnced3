@@ -13,11 +13,18 @@ public class DataType {// Convention: Pascal Case styles for class name
 		int c = 767;
 		long d = 7676L;
 
+		Byte a_ = a;
+		Short b_ = b;
+		Integer c_ = 789;
+		Long d_ = 8689l;
+
 //		b=c;
 
 		// float
 		float pi = 3.14f;
 		double distnce = 897797.5445;
+
+		Float pi_ = pi;
 
 //		charcters
 		char aCharacter = 'A';
