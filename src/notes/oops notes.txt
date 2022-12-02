@@ -1,0 +1,10 @@
+
+OOP (Object Orientatied Programming)
+Table:
+has [properties]- noOfLegs, Wood Material, Warranty, Color
+does [functiom] - sit(), study()
+
+
+Cake:
+has [properties]- Color, Flavour, Storeyed
+does [functiom] - eat()
