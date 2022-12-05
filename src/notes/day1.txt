@@ -1,0 +1,94 @@
+JAVA is programming language
+
+# used for BigData ==> Hadoop Apache JAVA
+# WebDevelopment  ===> Backend [BankCpompanies, netflix, MMT, Dhani App , Zepto)
+
+JAVA can be benefitial for
+#DSA --> C++/Java
+#Web frameworks
+	Spring ---> F of F
+	Spring CORE
+	Spring SECURITY
+	Spring CLOUD
+	Spring JDBC
+	Spring ORM
+#Microservices
+# Game Dev ==Minecraft
+
+
+Down Side --> people thing its a bit hard to learn which is totally wrong
+
+Versioning 
+------------------------------------------------------
+Win ---> 11 22H2
+JAVA ---> JDK 19
+LTS stands for  Long term support
+
+
+JDK 1.7
+*JDK 1.8  LTS java 8 2015 [jdk8 ex features]
+JDK 9
+JDK 10
+*JDK 11 LTS
+.......JDK 17 LTS
+
+
+Vendors
+---------------------------------------------------------
+*Oracle
+*Adoptium 
+Amazon coretto
+GRALL VM
+
+install JDK 8, 11
+
+
+JDK and JRE
+-----------------------------------------------------------
+to write , compile, run ==> use JDK [jre, javac, other dev tools]
+
+
+To just run the compiled code ==>  JRE 
+
+
+Editor vs IDE
+--------------------------------------------------------------------
+
+Editor are lightweight and suitable for simple editing and
+simple programs execution.
+ Notepad , Sublime, *Notepad ++
+
+IDE
+they are very powerful
+they are usually language specific
+For JAva , Eclipse and IntelliJ
+
+
+
+
+Running a simple Java code
+--------------------------------------------------------------------
+compiling
+Main.java  --- javac Main.java----> Main.class (bytecode)
+
+running
+java Main
+
+
+
+
+package naming conventions
+--------------------------------------------------------------------
+
+com.java.basics2
+
+1. amzon.com
+
+com.amzon.order.shipping
+
+
+
+
+
+
+
