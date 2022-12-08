@@ -87,6 +87,18 @@ com.java.basics2
 com.amzon.order.shipping
 
 
+Number System
+--------------------------------------------------------------------
+
+Decimal (0-9)
+
+HexDecimal (0 - 9)  U (A - F)
+Octal (0-7)
+0x7fffffff
+Binary (0, 1)
+
+
+		if (x > 50 && x % 2 != 0)
 
 
 

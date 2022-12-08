@@ -1,5 +1,11 @@
 
-OOP (Object Orientatied Programming)
+OOPS (Object Oriented Programming)
+--------------------------------------------------------------------
+Object
+2 parts
+1. has (instance variables)
+2. does (methods *fn)
+
 Table:
 has [properties]- noOfLegs, Wood Material, Warranty, Color
 does [functiom] - sit(), study()
@@ -7,4 +13,18 @@ does [functiom] - sit(), study()
 
 Cake:
 has [properties]- Color, Flavour, Storeyed
-does [functiom] - eat()
+does [function] - eat()
+
+
+INSTANTIATION is a process of creating an object
+
+Bike has
+1. Color
+2. Brand
+3. CC
+4. Mileage
+
+does
+Ride()
+
+
