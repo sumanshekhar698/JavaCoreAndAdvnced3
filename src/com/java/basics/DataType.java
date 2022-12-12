@@ -30,6 +30,8 @@ public class DataType {// Convention: Pascal Case styles for class name
 		char aCharacter = 'A';
 		System.out.println((int) aCharacter);
 
+		//Wrapper classes
+		Character mm = aCharacter;
 //		boolean
 		boolean isCostly = true;
 		isCostly = false;

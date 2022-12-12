@@ -3,9 +3,9 @@ package com.java.basics.oops;
 public class Bike {
 
 //	HAS
-	// insatnce variables (object specific)
-	String color;// every object has default value null
-	String brand;
+	// instance variables (object specific)
+	String color = "Maroon";// every object has default value null
+	String brand;//null
 	int cc;
 	float mileageOfTheBike;
 
