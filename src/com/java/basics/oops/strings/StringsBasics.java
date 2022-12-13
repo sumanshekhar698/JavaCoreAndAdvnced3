@@ -4,33 +4,39 @@ public class StringsBasics {
 
 	public static void main(String[] args) {
 
+//		IMMUTABLE STRINGS
+
+		int x = 9;
+		int y = 10;
+		int z = x + y;// 19
+
 		// String literal
-		String x = "SitaRamam";
-		System.out.println(x);
-		String y = "SitaRamam";
-		System.out.println(y);
+		String movie1 = "SitaRaman";
+		String movie2 = "sitaraman";
+		String movie3 = "SitaRaman";
 
-		if (x == y)
-			System.out.println(true);
-
-		if (x.equals(y))
-			System.out.println(true);
-		else
-			System.out.println(false);
+		movie2 = movie2 + "SUper HIt !";//contatination
+		// + is the only operator which is overloaded
 		
-		// String using new keyword
-		String m = new String("heMan");
-		String n = new String("heMan");
+		
 
-		if (m == n)
-			System.out.println(true);
+		System.out.println(movie2);//SitaRamanSUper HIt !
+		
+		if (movie1 == movie3)
+			System.out.println("EQUAL");
 		else
-			System.out.println(false);
+			System.out.println("NOT Equal");
 
-		if (m.equals(n))
-			System.out.println(true);
+		String hollywoodMovie_1 = new String("Avatar");
+		String hollywoodMovie_2 = new String("Avatar");
+		if (hollywoodMovie_1 == hollywoodMovie_2)
+			System.out.println("EQUAL");
 		else
-			System.out.println(false);
+			System.out.println("NOT Equal");
+		
+		hollywoodMovie_1 = hollywoodMovie_1.concat("- the way of water");
+		System.out.println(hollywoodMovie_1);//Avatar - the way of water
+
 	}
 
 }
