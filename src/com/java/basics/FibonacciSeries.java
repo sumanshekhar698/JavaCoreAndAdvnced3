@@ -4,7 +4,6 @@ public class FibonacciSeries {
 
 	public static void main(String[] args) {
 
-//		Find a year if its a leap one or not 
 		int input = 19;
 
 		int x = 0;

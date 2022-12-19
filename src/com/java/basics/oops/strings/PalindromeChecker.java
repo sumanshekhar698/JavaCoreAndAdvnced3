@@ -26,7 +26,11 @@ public class PalindromeChecker {
 		 * if (result.equals(sampleString2)) return true; else return false;
 		 */
 
-		return sampleString2.equals(new StringBuffer(sampleString2).reverse().toString()) ? true : false;
+		return sampleString2.equals(
+				new StringBuilder(sampleString2)
+				.reverse()
+				.toString()) 
+				? true : false;
 	}
 
 }
