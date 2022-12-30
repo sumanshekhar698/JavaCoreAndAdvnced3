@@ -6,6 +6,8 @@ import java.util.Date;
 public class Employee {
 
 	// default
+	
+	//instance variable are object level
 	String name;
 	private int id;
 	private int experience;
@@ -38,7 +40,9 @@ public class Employee {
 	// Constructor --> it has no return type
 	Employee() {// parameter less
 		this(true);
+//		return;
 		System.out.println("Employee un parameterized");
+
 	}
 
 	Employee(boolean flag) {// parameter less

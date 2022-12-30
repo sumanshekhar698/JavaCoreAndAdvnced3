@@ -5,13 +5,29 @@ import java.util.Scanner;
 
 public class Shape {
 
-	double getAreaOfCircle(float radius) {
+	// Polymorphism methods will be eventually* unique
+	double shape(float radius, int dummy) {
 //		return 3.14f * radius * radius;
-//		new Scanner(System.in);
 		return Math.PI * Math.pow(radius, 2);
 	}
 
-//	boolean isLeap(){
-//		
-//	}
+	float shape(int dummy, float side) {
+		return side * side;
+	}
+
+	// Below 2 methods have same name but thier overall signature is unique
+//	name
+//	no of parameters
+//	type of the parameter
+//	position of parameter
+
+	double shape(float base, float height) {
+		return 0.5 * base * height;
+	}
+
+	double shape(float top, float base, float height) {
+//		return 3.14f * radius * radius;
+		return 0.5 * height * (top + base);
+	}
+
 }

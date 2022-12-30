@@ -23,6 +23,8 @@ public class Main {
 		harry.setExperience(++experience);
 		Employee harrydup = harry.returnEmployee();
 
+		Employee dummy = new Employee();
+		System.out.println(dummy);
 		System.out.println(harry);
 		System.out.println(harry.hashCode());
 		System.out.println(harrydup.hashCode());
