@@ -14,8 +14,9 @@ public class PlayerMain {
 		Player rohitSharma = new IPLPlayer("Rohit Sharma", 45, 80, 190, 8, 10080, 0, false);// Implicit Upcasting
 
 		IPLPlayer rohitSharma2 = (IPLPlayer) rohitSharma;// you can downcast only an already upcasted object
+		
 		// Downcasting
-//		IPLPlayer dummy = (IPLPlayer) new Player("Dummy", 0, 0, 0, 0);//Explicit Typcasting
+		IPLPlayer dummy = (IPLPlayer) new Player("Dummy", 0, 0, 0, 0);//Explicit Typcasting
 	}
 
 }
