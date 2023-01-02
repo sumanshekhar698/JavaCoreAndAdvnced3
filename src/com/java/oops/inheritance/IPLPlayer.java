@@ -1,5 +1,7 @@
 package com.java.oops.inheritance;
 
+//Static with Inheritnace
+
 //child extends parent
 public class IPLPlayer extends Player {// Multiple inheritance is not possible in Java
 
@@ -25,8 +27,10 @@ public class IPLPlayer extends Player {// Multiple inheritance is not possible i
 
 //	void sayMyName() {//inherited
 
+	
+	//Runtime Polymorphism = Overridng of Methods
 	@Override
-	void sayMyName() {// Overidden methods
+	void sayMyName() {// Overridden methods
 		System.out.println("IPL PLAYER " + this.name);
 
 	}

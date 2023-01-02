@@ -3,6 +3,7 @@ package com.java.oops.polymorphism;
 import java.util.Scanner;
 //import java.util.*;
 
+//Compile Time Polymorphism = Method Oveloading
 public class Shape {
 
 	// Polymorphism methods will be eventually* unique
