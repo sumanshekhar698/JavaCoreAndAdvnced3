@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		ChildrenBank cBank = new ChildrenBank();
 		System.out.println(cBank.clearingGateway());
-		
+
 		Bank bank = new Bank() {
 			@Override
 			public int checkBalance(int acNo) {
@@ -18,9 +18,12 @@ public class Main {
 				// TODO Auto-generated method stub
 				return "Bank of Nepal";
 			}
-			
+
 		};
-		
+
+		System.out.println(Bank.getRepoRate());
+		cBank.getLoan();
+
 //		Functiona Interfaces, Marekr Interfaces
 	}
 }
