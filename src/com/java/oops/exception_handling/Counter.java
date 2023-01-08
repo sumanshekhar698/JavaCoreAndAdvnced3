@@ -13,12 +13,14 @@ public class Counter {
 
 		for (int i = 1; i <= time; i++) {
 			try {
-				System.exit(7);
+//				System.exit(7);
 				System.out.println(7 / 0);
 				Thread.sleep(1000);
 			} catch (InterruptedException | ArithmeticException e) {// Checked Exceptions
 				e.printStackTrace();
 			} catch (Exception e) {
+				System.out.println(e);
+			} catch (Throwable e) {
 				System.out.println(e);
 			} finally {// resource closing code
 				System.out.println("FINALY");

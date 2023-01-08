@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Counter2 {
 
+//	throws throw
 	public static void main(String[] args) throws InterruptedException {
 
 		System.out.println("START");

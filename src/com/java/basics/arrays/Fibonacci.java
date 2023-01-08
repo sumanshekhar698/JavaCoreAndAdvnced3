@@ -12,6 +12,7 @@ public class Fibonacci {
 		int j = 0;
 		int x = 0;
 		int y = 1;
+	
 
 		if (input == 1)
 //			System.out.println(x);
