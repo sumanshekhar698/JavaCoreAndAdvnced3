@@ -34,6 +34,8 @@ public class PriorityQueueExample {
 		Integer peek = priorityQueue.peek();
 		System.out.println(peek);
 		System.out.println(priorityQueue);
+		
+//		Comparator / COmparable
 
 	}
 
